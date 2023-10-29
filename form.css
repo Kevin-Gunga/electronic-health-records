@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.frm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+
+.savebtn{
+    
+    cursor: pointer;
+    border: none;
+    margin-top: 20px;
+    
+}
+#save{
+    padding: 10px;
+    background-color: aqua;
+}
+#save a{
+    color: #264653;
+    text-decoration: none;
+    
+}

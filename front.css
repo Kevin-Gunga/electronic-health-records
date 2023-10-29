@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background: url(./bg-image.jpg); */
+    background-size: cover;
+}
+
+.button {
+    margin: 20px;
+}
+
+#btn {
+    padding: 10px;
+    cursor: pointer;
+    color: #264653;
+    background-color: aqua;
+}
+
+#btn a {
+    text-decoration: none;
+}
